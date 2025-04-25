@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Online Store</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            background-color: #232f3e;
+            color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+            transition: color 0.2s ease;
+        }
+
+        header nav a:hover {
+            color: #ccc;
+        }
+
+        /* Search Bar */
+        .search-bar-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+
+        .search-bar-container form {
+            display: flex;
+            width: 100%;
+            max-width: 1000px;
+            background-color: #ffffff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-bar {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .search-button {
+            background-color: #febd69;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 0 5px 5px 0;
+            transition: background-color 0.2s ease;
+        }
+
+        .search-button:hover {
+            background-color: #f3a847;
+        }
+
+        /* Main Content */
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .product-card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .product-card h2 {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .product-card p {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0;
+        }
+
+        .product-card .price {
+            font-size: 16px;
+            font-weight: bold;
+            color: #b12704;
+            margin: 10px 0;
+        }
+
+        .product-card button {
+            background-color: #febd69;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.2s ease;
+        }
+
+        .product-card button:hover {
+            background-color: #f3a847;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #232f3e;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">E-Ticaret</div>
+        <nav>
+            {{ if ne .Username "" }}
+            <a href="/myaccount">My Account</a>
+            <a href="/logout">Logout</a>
+            {{ else }}
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
+            {{ end }}
+            <a href="/about">About Us</a>
+        </nav>
+    </header>
+
+    <div class="search-bar-container">
+        <form action="/search" method="post">
+            <input type="text" name="keywords" class="search-bar" placeholder="Search products...">
+            <button class="search-button" type="submit">Search</button>
+        </form>
+    </div>
+
+    <main class="content">
+        <h2>Featured Products</h2>
+        {{ if .Products }}
+        <div class="product-grid">
+            {{ range .Products }}
+            <div class="product-card">
+                <!-- <img src="/images/{{ .Pid }}.jpg" alt="{{ .Name }}"> -->
+                <a href="/detail?pid={{ .Pid }}">{{ .Name }}</a>
+                <p>{{ .Desc }}</p>
+                <p class="price">₺{{ .Price }}</p>
+            </div>
+            {{ end }}
+        </div>
+        {{ else }}
+        <p>No products available</p>
+        {{ end }}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 E-Ticaret. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,2220 @@
+{
+	"errs": [
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:03:36.220",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 19:03:37.974",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:51012",
+			"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 19:03:38.079",
+			"path": "/images/1",
+			"method": "GET",
+			"ip": "127.0.0.1:51012",
+			"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:04:06.071",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:04:10.621",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:38094",
+			"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 19:04:13.061",
+			"path": "/login",
+			"method": "GET",
+			"ip": "127.0.0.1:38094",
+			"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 19:04:17.421",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:38094",
+			"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "user admin logged in",
+			"date": "2025-04-24 19:04:17.421",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:38094",
+			"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:04:17.443",
+			"path": "/index",
+			"method": "GET",
+			"ip": "127.0.0.1:38094",
+			"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:04:23.012",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:38094",
+			"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:04:25.587",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:38094",
+			"user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:30:33.485",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:30:35.730",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:57068",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:30:50.293",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:57068",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:31:00.789",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:57068",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:37:24.096",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:38:31.234",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:38:36.831",
+			"path": "/images",
+			"method": "GET",
+			"ip": "127.0.0.1:58848",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:38:40.999",
+			"path": "/images",
+			"method": "GET",
+			"ip": "127.0.0.1:58848",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:39:42.699",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:39:44.857",
+			"path": "/images",
+			"method": "GET",
+			"ip": "127.0.0.1:45004",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:39:48.214",
+			"path": "/images",
+			"method": "GET",
+			"ip": "127.0.0.1:45004",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:40:18.737",
+			"path": "/images",
+			"method": "GET",
+			"ip": "127.0.0.1:45004",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:40:24.424",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:38070",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:40:27.565",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:38070",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "stat images/1.png: no such file or directory",
+			"date": "2025-04-24 19:40:27.565",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:38070",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:40:38.128",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:38070",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:40:51.259",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:38070",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:43:16.955",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:43:19.491",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:43:19.491",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:43:22.741",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:43:22.741",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:43:34.099",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:43:34.100",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:43:38.021",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:43:38.022",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:43:51.199",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:43:51.199",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:43:58.196",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:43:58.196",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:44560",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:44:00.402",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:44:00.920",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:38774",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:44:00.920",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:38774",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:46:18.087",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:36174",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:46:18.088",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:36174",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:46:22.864",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:36174",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:46:22.864",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:36174",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:46:25.619",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:36174",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:46:25.620",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:36174",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:47:04.618",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:36174",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:47:04.618",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:36174",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:48:24.961",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 19:48:26.339",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:45800",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found",
+			"date": "2025-04-24 19:48:26.340",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:45800",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:55:13.431",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 19:55:15.228",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:47484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found in url",
+			"date": "2025-04-24 19:55:15.228",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:47484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:55:55.040",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:56:15.376",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 19:56:18.739",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:49612",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 19:56:44.696",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 19:56:45.824",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:37600",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 19:57:16.900",
+			"path": "/search",
+			"method": "GET",
+			"ip": "127.0.0.1:37600",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 19:57:18.827",
+			"path": "/search",
+			"method": "POST",
+			"ip": "127.0.0.1:37600",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 19:57:20.497",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:37600",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 19:57:20.574",
+			"path": "/images/1",
+			"method": "GET",
+			"ip": "127.0.0.1:37600",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 20:02:07.089",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:02:38.841",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:02:38.920",
+			"path": "/images",
+			"method": "GET",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:02:56.356",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "http: named cookie not present",
+			"date": "2025-04-24 20:02:56.357",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 20:03:02.694",
+			"path": "/login",
+			"method": "GET",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 20:03:07.302",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "user test logged in",
+			"date": "2025-04-24 20:03:07.303",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:03:07.338",
+			"path": "/index",
+			"method": "GET",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:03:13.322",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:03:36.203",
+			"path": "/newproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "5 values for 4 columns",
+			"date": "2025-04-24 20:03:36.203",
+			"path": "/newproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:37484",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 20:04:31.042",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:04:34.063",
+			"path": "/newproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 20:04:34.087",
+			"path": "/login",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 20:04:40.318",
+			"path": "/login",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:04:40.344",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:04:52.553",
+			"path": "/newproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "product name: ayped added",
+			"date": "2025-04-24 20:04:52.570",
+			"path": "/newproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:04:52.594",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 20:04:59.674",
+			"path": "/search",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 20:05:02.082",
+			"path": "/search",
+			"method": "POST",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:05:03.682",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:05:03.779",
+			"path": "/images",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:05:25.296",
+			"path": "/images",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 20:05:29.244",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "file not found in url",
+			"date": "2025-04-24 20:05:29.245",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 20:05:34.897",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:46796",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 20:05:49.405",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:05:55.806",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:60464",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 20:05:55.898",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:60464",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 20:06:54.354",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 20:06:57.431",
+			"path": "/search",
+			"method": "POST",
+			"ip": "127.0.0.1:34450",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:07:00.750",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:34450",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:07:02.545",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:34450",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 20:07:02.649",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:34450",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 20:08:57.510",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:08:59.055",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:41468",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 20:08:59.163",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:41468",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 20:09:08.492",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:09:08.820",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:54856",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 20:09:08.910",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:54856",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 20:09:13.008",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:09:13.605",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:54570",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 20:09:13.723",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:54570",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:09:18.329",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:54570",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 20:09:18.426",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:54570",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "open images/1.png: no such file or directory",
+			"date": "2025-04-24 20:09:18.427",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:54570",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-24 20:09:18.530",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:54570",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "open images/1.png: no such file or directory",
+			"date": "2025-04-24 20:09:18.531",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:54570",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-24 20:09:51.363",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:10:04.089",
+			"path": "/",
+			"method": "GET",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 20:10:10.689",
+			"path": "/login",
+			"method": "GET",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-24 20:10:19.003",
+			"path": "/login",
+			"method": "POST",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "user admin logged in",
+			"date": "2025-04-24 20:10:19.006",
+			"path": "/login",
+			"method": "POST",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:10:19.093",
+			"path": "/index",
+			"method": "GET",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 20:10:22.140",
+			"path": "/myaccount",
+			"method": "GET",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-24 20:10:29.722",
+			"path": "/products",
+			"method": "GET",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 20:10:40.584",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:10:51.671",
+			"path": "/deluser",
+			"method": "POST",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "admin deleted user uid: 16",
+			"date": "2025-04-24 20:10:51.687",
+			"path": "/deluser",
+			"method": "POST",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 20:10:51.737",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-24 20:10:56.941",
+			"path": "/deluser",
+			"method": "POST",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "admin deleted user uid: 15",
+			"date": "2025-04-24 20:10:56.957",
+			"path": "/deluser",
+			"method": "POST",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 20:10:57.018",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-24 20:10:58.095",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "192.168.1.103:45466",
+			"user_agent": "Mozilla/5.0 (Android 14; Mobile; rv:137.0) Gecko/137.0 Firefox/137.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:11:43.895",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:11:46.039",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:33478",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:11:48.655",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:33478",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:11:49.617",
+			"path": "/login",
+			"method": "GET",
+			"ip": "127.0.0.1:33478",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:11:54.500",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:33478",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "user admin logged in",
+			"date": "2025-04-25 19:11:54.502",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:33478",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:11:54.526",
+			"path": "/index",
+			"method": "GET",
+			"ip": "127.0.0.1:33478",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:11:59.035",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:33478",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:13:25.440",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:13:27.049",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:43166",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:14:50.599",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:14:52.566",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:48108",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:15:12.117",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:15:12.536",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:53876",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:15:16.641",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:53882",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "http: named cookie not present",
+			"date": "2025-04-25 19:15:16.642",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:53882",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:17:19.486",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:17:20.675",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:42358",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:17:27.085",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:42358",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:17:37.829",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:17:38.133",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:57482",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:17:47.363",
+			"path": "/delproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:57482",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:17:47.394",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:57482",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:19:11.108",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:19:15.123",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:43000",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:19:30.290",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:19:31.178",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:37932",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:19:40.463",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:19:41.094",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:56650",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:20:04.089",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:20:05.483",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:33866",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:21:04.140",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:21:06.109",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:54428",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:21:18.842",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:21:19.619",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:49446",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:21:35.326",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:21:36.473",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:21:55.788",
+			"path": "/changepass",
+			"method": "POST",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "user not found",
+			"date": "2025-04-25 19:21:55.789",
+			"path": "/changepass",
+			"method": "POST",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:22:00.871",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:22:08.851",
+			"path": "/changepass",
+			"method": "POST",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "admin changed user password uid: 2",
+			"date": "2025-04-25 19:22:08.855",
+			"path": "/changepass",
+			"method": "POST",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:22:08.883",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:22:23.284",
+			"path": "/changepass",
+			"method": "POST",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "admin changed user password uid: 2",
+			"date": "2025-04-25 19:22:23.288",
+			"path": "/changepass",
+			"method": "POST",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:22:23.311",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:47384",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:22:51.735",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:22:52.747",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:39326",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:24:06.612",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connetion",
+			"date": "2025-04-25 19:24:10.122",
+			"path": "/about",
+			"method": "GET",
+			"ip": "127.0.0.1:59838",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:24:34.430",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connetion",
+			"date": "2025-04-25 19:24:35.165",
+			"path": "/about",
+			"method": "GET",
+			"ip": "127.0.0.1:37150",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:24:50.366",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connetion",
+			"date": "2025-04-25 19:24:50.832",
+			"path": "/about",
+			"method": "GET",
+			"ip": "127.0.0.1:53420",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:25:24.533",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connetion",
+			"date": "2025-04-25 19:25:25.494",
+			"path": "/about",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:25:31.183",
+			"path": "/login",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:25:31.208",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:25:33.848",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:25:37.309",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:25:43.442",
+			"path": "/search",
+			"method": "POST",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:25:45.429",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:25:45.502",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "open images/1.png: no such file or directory",
+			"date": "2025-04-25 19:25:45.503",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:25:45.524",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "open images/1.png: no such file or directory",
+			"date": "2025-04-25 19:25:45.525",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:25:47.767",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:25:47.849",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "open images/33.png: no such file or directory",
+			"date": "2025-04-25 19:25:47.850",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:26:21.277",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:26:45.773",
+			"path": "/newproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "product name: tester added",
+			"date": "2025-04-25 19:26:45.777",
+			"path": "/newproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:26:45.803",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:26:47.631",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:26:50.300",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:26:50.387",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:42744",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "server init started",
+			"date": "2025-04-25 19:41:41.582",
+			"path": "",
+			"method": "",
+			"ip": "",
+			"user_agent": "[SERVER]"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:41:47.948",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:41:57.856",
+			"path": "/login",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:42:02.457",
+			"path": "/register",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:42:06.003",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:42:08.934",
+			"path": "/login",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:42:14.030",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "user admin logged in",
+			"date": "2025-04-25 19:42:14.031",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:42:14.056",
+			"path": "/index",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:42:16.944",
+			"path": "/search",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connetion",
+			"date": "2025-04-25 19:42:26.818",
+			"path": "/about",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:42:35.637",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:42:47.180",
+			"path": "/mycart",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:42:56.934",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:43:03.451",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:43:15.722",
+			"path": "/search",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:43:20.732",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:43:23.329",
+			"path": "/delproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:43:23.354",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:43:28.354",
+			"path": "/delproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:43:28.376",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:43:35.895",
+			"path": "/delproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:43:35.918",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:43:38.465",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:44:11.723",
+			"path": "/newproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "product name: iPad 1 added",
+			"date": "2025-04-25 19:44:11.727",
+			"path": "/newproduct",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:44:11.755",
+			"path": "/products",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:44:14.447",
+			"path": "/search",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:44:17.385",
+			"path": "/search",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:44:19.624",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:44:19.705",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:44:24.977",
+			"path": "/make_comment",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:44:26.414",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:44:26.502",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:44:39.312",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:56410",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:44:39.345",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:56410",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:44:53.810",
+			"path": "/make_comment",
+			"method": "POST",
+			"ip": "127.0.0.1:56410",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:44:53.811",
+			"path": "/make_comment",
+			"method": "POST",
+			"ip": "127.0.0.1:48208",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:45:04.278",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:45:04.379",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:45:06.493",
+			"path": "/make_comment",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:45:08.962",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:45:09.051",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:45:27.673",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new connection",
+			"date": "2025-04-25 19:45:29.659",
+			"path": "/admin",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:45:32.455",
+			"path": "/del_comment",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:45:34.163",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:45:34.254",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:45:45.550",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:45:45.578",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "open images/1.png: no such file or directory",
+			"date": "2025-04-25 19:45:45.581",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:45:50.448",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "product not found",
+			"date": "2025-04-25 19:45:50.449",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:45:52.569",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:45:52.611",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:45:59.606",
+			"path": "/",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:46:01.186",
+			"path": "/login",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new connection/request",
+			"date": "2025-04-25 19:46:05.118",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "user admin logged in",
+			"date": "2025-04-25 19:46:05.119",
+			"path": "/login",
+			"method": "POST",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new connections",
+			"date": "2025-04-25 19:46:05.127",
+			"path": "/index",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:46:17.753",
+			"path": "/make_comment",
+			"method": "POST",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:46:18.940",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:46:18.993",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:46:19.191",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:46:19.243",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:37062",
+			"user_agent": "Mozilla/5.0 (Windows NT 11.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5653.214 Safari/537.36"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:46:31.424",
+			"path": "/del_comment",
+			"method": "POST",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new request",
+			"date": "2025-04-25 19:46:32.651",
+			"path": "/detail",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		},
+		{
+			"err": "new conntection",
+			"date": "2025-04-25 19:46:32.742",
+			"path": "/image",
+			"method": "GET",
+			"ip": "127.0.0.1:59620",
+			"user_agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0"
+		}
+	]
+}

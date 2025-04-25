@@ -1,0 +1,6 @@
+{
+    "port":8088,
+    "userdb":"./dbs/user.db",
+    "productdb":"./dbs/product.db",
+    "commentdb":"./dbs/comments.db"
+}

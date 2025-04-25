@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{.Product.Name}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .product-container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+        }
+
+        .product-image {
+            width: 30%;
+            margin-right: 20px;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .product-details {
+            width: 70%;
+        }
+
+        .product-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .seller-name {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            margin-bottom: 20px;
+        }
+
+        .product-price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #00698f;
+            margin-bottom: 10px;
+        }
+
+        .add-to-cart {
+            background-color: #f0c14b;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 150px;
+        }
+
+        .add-to-cart:hover {
+            background-color: #e0b646;
+        }
+
+        .comments-container {
+            margin-top: 40px;
+        }
+
+        .comment {
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .comment-author {
+            font-weight: bold;
+        }
+
+        .product-info {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .product-info div {
+            margin-bottom: 10px;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        .product-image {
+            width: 30%;
+            /* or any other width you want */
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-container">
+        <div class="product-image">
+            <img src="/image?file={{ .Product.Pid }}.png" alt="{{.Product.Name}}">
+        </div>
+        <div class="product-details">
+            <div class="product-info">
+                <h2 class="product-name">{{.Product.Name}}</h2>
+                <p class="seller-name">Sold by {{.Product.SellerUid}}</p>
+                <p class="product-description">{{.Product.Desc}}</p>
+                <p class="product-price">₺{{.Product.Price}}</p>
+                <form action="/addcart" method="post" style="margin-top: 20px;">
+                    <input type="hidden" name="pid" value="{{ .Product.Pid }}">
+                    <button type="submit" class="add-to-cart">Add to cart</button>
+                </form>
+                <form action="/buy-now" method="post" style="margin-top: 10px;">
+                    <input type="hidden" name="pid" value="{{ .Product.Pid }}">
+                    <button type="submit" class="add-to-cart">Buy now</button>
+                </form>
+            </div>
+            <div class="comments-container">
+                <h3>Comments:</h3>
+                {{if .Comments}}
+                {{range .Comments}}
+                <div class="comment">
+                    <p class="comment-author">{{ .Username }}</p>
+                    <p>{{ .Comment }}</p>
+                    <p>Comment id: {{ .Comid }}</p>
+                    <p>Date: {{ .Date }}</p>
+                </div>
+                {{end}}
+                {{else}}
+                <p>There is no comments</p>
+                {{end}}
+                <hr>
+
+                <form action="/make_comment" method="post">
+                    <input type="hidden" name="pid" value="{{ .Product.Pid }}">
+                    <input type="text" name="comment" placeholder="Make a comment"
+                        style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd;">
+                    <button type="submit" class="add-to-cart">Make comment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    {{if not .Product}}
+    <p>An error occured</p>
+    {{end}}
+</body>
+
+</html>

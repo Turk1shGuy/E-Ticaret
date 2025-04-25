@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #131921;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .search-bar {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-menu li {
+            margin-right: 20px;
+        }
+
+        .nav-menu a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+
+        .account-info {
+            background-color: #fff;
+            padding: 2em;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            width: 80%;
+        }
+
+        .order-history {
+            background-color: #fff;
+            padding: 2em;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            width: 80%;
+        }
+
+        footer {
+            background-color: #131921;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            clear: both;
+        }
+
+        .footer-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer-links li {
+            margin-right: 20px;
+        }
+
+        .footer-links a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Responsive Design */
+
+        @media only screen and (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+
+            .nav-menu {
+                flex-direction: column;
+            }
+
+            .nav-menu li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <input type="search" class="search-bar" placeholder="Search for products">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="/index">Home</a></li>
+                <li><a href="/logout">Logout</a></li>
+                <li><a href="/products">Your Products</a></li>
+                <li><a href="/mycart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{if .}}
+        <section class="account-info">
+            <h1>Account Information</h1>
+            <p>Welcome {{ . }}</p>
+            <p>Email: example@example.com</p>
+            <p>Order History:</p>
+            <ul>
+                <li>Order 1: $100 (Delivered)</li>
+                <li>Order 2: $200 (Shipped)</li>
+            </ul>
+
+        </section>
+        <section class="order-history">
+            <h1>Order History</h1>
+            <ul>
+                <li>
+                    <h2>Order 1</h2>
+                    <p>Date: 2022-01-01</p>
+                    <p>Total: $100</p>
+                    <p>Status: Delivered</p>
+                </li>
+                <li>
+                    <h2>Order 2</h2>
+                    <p>Date: 2022-01-15</p>
+                    <p>Total: $200</p>
+                    <p>Status: Shipped</p>
+                </li>
+            </ul>
+        </section>
+        {{end}}
+    </main>
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#">Help & Conditions</a></li>
+            <li><a href="#">Sell on Amazon</a></li>
+            <li><a href="#">Amazon Business</a></li>
+        </ul>
+        <p>&copy; 2024 Amazon Clone</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Cart</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        .nav-bar {
+            background-color: #131921;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav-bar a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f0f0f0;
+            color: #333;
+            font-weight: bold;
+        }
+
+        td {
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f2f2f2;
+        }
+
+        .buy-button {
+            background-color: #f08804;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .buy-button:hover {
+            background-color: #e57e17;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <a href="/">Home</a>
+        <a href="/myaccount">My Account</a>
+        <a href="/about">About Us</a>
+    </div>
+
+    <h1>My Cart</h1>
+
+    {{if .}}
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th>Seller</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Buy</th>
+        </tr>
+        {{ range . }}
+        <tr>
+            <td>{{ .Name }}</td>
+            <td>{{ .SellerUid }}</td>
+            <td>{{ .Desc }}</td>
+            <td>{{ .Price }}</td>
+            <td>
+                <form action="/delcart" method="post">
+                    <input type="hidden" name="pid" value="{{ .Pid }}">
+                    <input type="submit" value="Buy" class="buy-button">
+                </form>
+            </td>
+        </tr>
+        {{ end }}
+    </table>
+    {{else}}
+    <p>Your cart is empty</p>
+    {{end}}
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        header {
+            background-color: #232f3e;
+            color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color: #febd69;
+            color: #232f3e;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .content h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #232f3e;
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            background-color: #232f3e;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        body {
+            position: relative;
+            min-height: 100vh;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">E-Ticaret</div>
+        <nav>
+            {{if .}}
+            <a href="/">Home</a>
+            <a href="/products">Products</a>
+            <a href="/mycart">Cart</a>
+            <a href="/login">Login</a>
+            {{else}}
+            <a href="/">Homw</a>
+            <a href="/login">Login</a>
+            <a href="/register">Register</a>
+            {{end}}
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>About Us</h1>
+        <p>Learn more about our mission, vision, and values.</p>
+    </div>
+
+    <div class="content">
+        <h2>Who We Are</h2>
+        <p>
+            Welcome to E-Ticaret, your trusted online store. Our mission is to provide customers with the best shopping
+            experience by offering a wide range of high-quality products at competitive prices. We are committed to
+            innovation, customer satisfaction, and building a community of loyal shoppers.
+        </p>
+
+        <h2>Our Vision</h2>
+        <p>
+            Our vision is to become a global leader in e-commerce by continuously improving our services and expanding
+            our product offerings. We aim to empower customers by providing them with the tools and resources they need
+            to make informed purchasing decisions.
+        </p>
+
+        <h2>Our Values</h2>
+        <p>
+            At E-Ticaret, we value integrity, transparency, and excellence. We believe in creating a positive impact on
+            society by supporting sustainable practices and giving back to the community.
+        </p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 E-Ticaret. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
